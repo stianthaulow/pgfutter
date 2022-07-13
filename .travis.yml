@@ -8,9 +8,9 @@ go:
   - tip
 cache:
   directories:
-  - samples
+    - samples
 install:
-  - go get github.com/codegangsta/cli
+  - go get github.com/urfave/cli
   - go get github.com/lib/pq
   - go get github.com/kennygrant/sanitize
   - go get github.com/cheggaaa/pb
